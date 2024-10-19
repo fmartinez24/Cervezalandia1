@@ -154,3 +154,71 @@ th {
         margin-bottom: 20px;
     }
 }
+.biografia-contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biografia-texto {
+    flex: 2;
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+    text-align: center;
+}
+
+aside img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+body {
+    font-family: "verdana";
+    font-size: 11px;
+}
+
+input, textarea {
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 4px;
+}
+
+textarea {
+    overflow: auto;
+    padding: 5px;
+}
+
+#submit, #startover {
+    color: #555;
+    font-weight: bold;
+}
+
+label {
+    padding-top: 15px;
+    display: block;
+    font-weight: bold;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+fieldset {
+    border: 1px solid #555;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+input:invalid, textarea:invalid {
+    background: #fff;
+    box-shadow: 0 0 5px #d45252;
+}
+
+input:required:valid, textarea:required:valid {
+    background: #fff;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
